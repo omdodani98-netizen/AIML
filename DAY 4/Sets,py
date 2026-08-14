@@ -1,0 +1,18 @@
+#sets
+# Creating a set (duplicates like "apple" are automatically removed)
+my_set = {"apple", "banana", "cherry", "apple"}
+print(my_set)  # Output: {'banana', 'cherry', 'apple'} (order may vary)
+
+# Adding and removing items
+my_set.add("orange")
+my_set.remove("banana")
+
+# Mathematical set operations
+set_a = {1, 2, 3}
+set_b = {3, 4, 5}
+
+# Union (combines both sets, keeping unique values)
+print(set_a | set_b)  # Output: {1, 2, 3, 4, 5}
+
+# Intersection (finds common elements)
+print(set_a & set_b)  # Output: {3}
